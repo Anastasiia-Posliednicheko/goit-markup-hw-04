@@ -288,6 +288,7 @@ p {
     padding: 0;
 }
 .list-team {
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
@@ -321,27 +322,30 @@ p {
 }
 
 .social-links{
-    position: static;
-        width: 232px;
+    padding-top: 8px;
+    
+    margin: 0 auto;
+    width: 232px;
         height: 40px;
-    display: flex;
-        flex-direction: row;
-        justify-content: center;
+display: flex;
+    gap: 24px;
+    
+
+}
+.social-links .social-ikon-team{
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background: rgb(77, 90, 229);
+    border-radius: 50%;
         align-items: center;
-        gap: 24;
-        
-
-}
-
-.social-link-team{
-    color:#404BBF;
-    rgb(77, 90, 229);
-    width: 40px;
+        justify-content: center;
+    display: flex;
+        width: 40px;
         height: 40px;
-        left: 0;
-        top: 0;
-        
 }
+.social-links .icon-social{
+    fill: #f4f4fd;
+}
+
 .portfolio{
     padding: 120px 0;
     border-bottom: 120px;
@@ -429,13 +433,36 @@ p {
 }
 
 .text-footer {    
-    max-width: ;width: 264px;
+    max-width: 264px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
+
+.social{
+    margin: 0 auto;
+    position: absolute;
+        width: 208px;
+        height: 80px;
+        left: 540px;
+        right: 692px;
+        top: 3256px;
+         bottom: -3024px;
+}
+.text-footer-social{
+    
+    text-align: left; 
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+    font-family: "Roboto", sans-serif;56
+
+}
+
 
 img{
     display: block;
