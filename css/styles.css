@@ -336,12 +336,17 @@ p {
 
 }
 .social-links-team{
+    height: 40px;
+    width: 40px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
+.social-ikon-team{
+    height: 100%;
+    width: 100%;
+}
 .social-links .social-ikon-team{
-    
-    background: rgb(77, 90, 229);
+    background-color: rgb(77, 90, 229);
     border-radius: 50%;
     align-items: center;
     justify-content: center;
@@ -388,14 +393,15 @@ p {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
+.set:hover .menu-portfolio-set {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 2px 1px rgba(46, 47, 66, 0.08);
+    
 
+}
 .set:hover .text-overlay {
     transform: translateY(0%);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
-
-
 }
 .menu-portfolio.set{
     width: calc((100%-48px) / 3);
@@ -458,7 +464,7 @@ p {
     margin-right: 120px
 }
 
-    .footer {
+.footer {
     background: #2e2f42;
     height: 312px;
     justify-content: flex-start;
@@ -516,7 +522,7 @@ p {
         gap: 16px;
 }
 .social-link-team{
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
     width: 40px;
     height: 40px;
 
@@ -524,6 +530,7 @@ p {
 
 
 .social-ikon-team{
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     align-items: center;
     display: flex;
     width: 100%;
