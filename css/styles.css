@@ -326,10 +326,8 @@ p {
 
 .social-links{
     justify-content: center;
-    padding-top: 8px;
+    margin-top: 8px;
     margin: 0 auto;
-    width: 232px;
-    height: 40px;
     display: flex;
     gap: 24px;
     
@@ -506,16 +504,7 @@ p {
     color: #f4f4fd;
 }
 
-.social{
-    margin: 0 auto;
-    position: absolute;
-        width: 208px;
-        height: 80px;
-        left: 540px;
-        right: 692px;
-        top: 3256px;
-        bottom: -3024px;
-}
+
 .social-links-footer{
         display: flex;
         gap: 16px;
